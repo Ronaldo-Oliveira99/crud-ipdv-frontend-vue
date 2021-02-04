@@ -40,7 +40,8 @@ export default {
          dptoName: [],
          dptoId: [],
           fields: [
-              { key: 'name', label: 'funcionario' },
+              { key: 'id', label: 'funcionario' },
+              { key: 'cargo', label: 'departamento' },
               { key: 'dept', label: 'departamento' },
           ]
        }
@@ -54,11 +55,11 @@ export default {
 
           },
       loadDpto() {
-        const url = `${baseApiUrl}/dpt/${this.id}`
+        const url = `${baseApiUrl}/cargo/${this.id}`
         axios.get(url).then(res => {
           const dpto2 = res.data.map(i => 
           {
-            return {id: i.id ,name:i.funcionario, dept: i.departamento}
+            return {id: i.id ,cargo:i.cargo, dept: i.departamento, }
           })
           this.dpto = dpto2
         })

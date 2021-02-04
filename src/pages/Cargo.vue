@@ -82,6 +82,7 @@ export default {
             })
         },
          loadDepto() {
+            // const url = 'http://localhost:3000/usuarios'
             const url = `${baseApiUrl}/departamento`
             axios.get(url).then(res => {
                 const dpto = res.data.map(i => i['name'])
