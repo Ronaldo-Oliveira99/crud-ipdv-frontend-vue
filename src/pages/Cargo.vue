@@ -1,6 +1,6 @@
 <template>
  <div>
-      <h5>Cadastro de Departamento</h5>
+      <h5>Cadastro de Cargos</h5>
     <b-form  class="mt-4">
         <b-col md="6" sm="12">
             <div class="mb-4">
