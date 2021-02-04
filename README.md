@@ -32,15 +32,17 @@ Tecnologia Utilizadas.
 Esta é uma versão inicial. Navegue pela abas para acessar os cadastros.
  ![image_1](https://github.com/Ronaldo-Oliveira99/crud-ipdv-frontend-vue/blob/master/img2.png?raw=true)
  
- Começe cadastrando umcento de custo, assim a opcao estará sisponível em cadastro de detamentos e assim por diante
+ Começe cadastrando na aba Centro de Custos, assim estes Centros estarão disponível ao cadastrar departamentos idicando o setor acima.
  ![image_2](https://github.com/Ronaldo-Oliveira99/crud-ipdv-frontend-vue/blob/master/img1.png?raw=true)
 
 
- As opçoes sera disponibilizadas nos selects para gera uma o private key(relação) 
+
+ Neste exemplo as opcões da caixa de seleção foram as opcões cadastradas na aba departamentos, assim pode-se cadastrar um cargo baseado no cadastro em departamentos. 
+ ![image_3](https://github.com/Ronaldo-Oliveira99/crud-ipdv-frontend-vue/blob/master/img3.png?raw=true)
  
- Neste exemplo as opcoes da cixa de seleção foram as opcoes cadastradas em departamento, que possui cargos. 
- assim tera mais consistencia na tabela
- ![image_2](https://github.com/Ronaldo-Oliveira99/crud-ipdv-frontend-vue/blob/master/img3.png?raw=true)
+ 
+ As opçoes de updade de delete estão nos botoes nas linhas de dados apresentadas, note que ao clicar no botao referente a linha, o dado aparece no imput e o botao muda a core para representar a acão a ser tomada. 
+ ![image_4](https://github.com/Ronaldo-Oliveira99/crud-ipdv-frontend-vue/blob/master/img4.png?raw=true)
 
 
  
